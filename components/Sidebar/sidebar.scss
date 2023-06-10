@@ -1,0 +1,41 @@
+.sidebar_container {
+  background: #000000;
+  border-radius: 30px;
+  //   width: 100%;
+  padding: 25px 15px 25px 35px;
+  height: 100%;
+  //   position: absolute;
+  //   left: 1%;
+  //   right: 0%;
+  //   top: 0%;
+  //   bottom: 0%;
+  .logo {
+    font-family: "Montserrat-Black-Bold";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .sidebar_item_selected {
+    font-family: "Montserrat-Black-Medium";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .sidebar_item {
+    font-family: "Montserrat-Black-Light";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .sidebar_footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}

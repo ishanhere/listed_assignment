@@ -10,7 +10,13 @@
   "dependencies": {
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "node-sass": "6.0.1",
+    "npm": "8.10.0",
+    "axios": "0.24.0",
+    "highcharts": "9.3.3",
+    "highcharts-react-official": "3.1.0",
+    "sass": "1.52.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

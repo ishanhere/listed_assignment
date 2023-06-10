@@ -1,0 +1,11 @@
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 280px;
+  width: 480px;
+  padding: 30px;
+  .bar {
+    border: 5px solid #9bdd7c;
+    transform: rotate(180deg);
+  }
+}
