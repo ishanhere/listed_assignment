@@ -16,7 +16,8 @@
     "axios": "0.24.0",
     "highcharts": "9.3.3",
     "highcharts-react-official": "3.1.0",
-    "sass": "1.52.1"
+    "sass": "1.52.1",
+    "jwt-decode": "3.1.2"
   },
   "devDependencies": {
     "eslint": "7.32.0",
