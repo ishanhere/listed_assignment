@@ -3,6 +3,7 @@ import bell from "../../public/images/bell.svg";
 import profile from "../../public/images/profile.svg";
 
 const DashboardHeader = () => {
+  const user = JSON.parse(sessionStorage.getItem("user"));
   return (
     <div className="dashboardHeader">
       <div className="dashboardHeader_item1">
@@ -21,18 +22,17 @@ const DashboardHeader = () => {
           className="margin-top-7 margin-right-5"
           alt="img"
           width="20"
-          // height="15"
         />
       </div>
       <div className="dashboardHeader_item4">
         {" "}
         <Image
-          src={profile}
+          src={user?.picture}
           className="margin-top-7 margin-right-5"
           alt="img"
           width="22"
+          height="20"
           style={{ borderRadius: 20 }}
-          // height="15"
         />
       </div>
     </div>
